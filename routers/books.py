@@ -13,7 +13,7 @@ router = APIRouter(
 @router.get('/', status_code=200)
 def get_all_books(db: Session = Depends(get_mysql_db)):
     try:
-        print(books_data.get_all_books(db))
+        books_data.get_all_books(db)
     
     except Exception as e:
         print(e)
