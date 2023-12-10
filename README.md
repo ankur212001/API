@@ -8,4 +8,6 @@
     3 After this is done run the API using command line by 
         uvicorn main:app --reload
     4 To test the API using a graphical interface press ctrl and visit the /docs route of the link where the API is hosted. 
-    
+
+Language Used - Python
+Libraries Used - FastAPI, SQLAlchemy
