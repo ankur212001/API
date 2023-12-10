@@ -1,6 +1,6 @@
 # API
 
-#  To start the API\n
+  To start the API\n
     1 Setup MySQL server on your local computer.
     2 Add a .env file including MYSQL_DATABASE_HOST,
                                 MYSQL_DATABASE_USER, 
